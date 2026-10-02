@@ -1,0 +1,25 @@
+--- app/src/main/java/com/example/ui/viewmodel/PartnerViewModel.kt
++++ app/src/main/java/com/example/ui/viewmodel/PartnerViewModel.kt
+@@ -160,11 +160,18 @@
+     fun verifyLoginOtp() {
+         _uiState.update { 
+             it.copy(
+-                isAuthenticated = true,
+                 showOtpStep = false,
++                showTwoFactorStep = true
++            )
++        }
++    }
++
++    fun verifyTwoFactorCode() {
++        _uiState.update {
++            it.copy(
++                isAuthenticated = true,
++                showTwoFactorStep = false,
+                 loginPhone = "",
+-                loginOtp = ""
++                loginOtp = "",
++                loginTwoFactorCode = ""
+             )
+         }
+     }

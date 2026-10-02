@@ -1,0 +1,1 @@
+sed -i 's/status = status/status = status,\n            isReturnTrip = (bonusAmount > 0),\n            capacitySharePercent = (payloadKg * 100 \/ 800).coerceIn(10, 100),\n            fuelCostEstimated = ((distanceKm \/ 10.0) * 98.38).toInt()/g' app/src/main/java/com/example/data/model/TransportRequest.kt

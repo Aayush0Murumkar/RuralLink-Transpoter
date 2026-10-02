@@ -1,0 +1,1 @@
+sed -i 's/val status: String = "ACCEPTED"/val status: String = "ACCEPTED",\n    val isReturnTrip: Boolean = false,\n    val capacitySharePercent: Int = 45,\n    val fuelCostEstimated: Int = 120/g' app/src/main/java/com/example/data/model/PartnerModels.kt

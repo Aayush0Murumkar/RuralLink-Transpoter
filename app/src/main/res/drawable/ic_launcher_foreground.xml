@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="20"
+        android:translateY="20">
+        <!-- Golden Wheat / Sprout Base -->
+        <!-- Central Stalk -->
+        <path
+            android:fillColor="#81C784"
+            android:pathData="M34,62 C34,62 33,35 34,22 C35,22 36,35 34,62 Z" />
+        <!-- Left Leaf -->
+        <path
+            android:fillColor="#A5D6A7"
+            android:pathData="M34,42 C20,38 18,22 33,26 C33,32 34,38 34,42 Z" />
+        <!-- Right Leaf -->
+        <path
+            android:fillColor="#66BB6A"
+            android:pathData="M34,34 C48,30 50,14 35,18 C35,24 34,30 34,34 Z" />
+        <!-- Left Wheat Grain -->
+        <path
+            android:fillColor="#FFE082"
+            android:pathData="M34,26 C24,20 22,8 34,14 Z" />
+        <!-- Right Wheat Grain -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M34,18 C44,12 46,0 34,6 Z" />
+        <!-- Crown Grain -->
+        <path
+            android:fillColor="#FFCA28"
+            android:pathData="M34,6 C30,-4 38,-4 34,6 Z" />
+        <!-- Modern Link / Connection Ring at Base -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M18,52 C22,46 30,44 38,48 C46,52 54,50 58,44" />
+        <!-- Soil Arc / Base -->
+        <path
+            android:fillColor="#FFF9C4"
+            android:pathData="M14,64 C24,59 44,59 54,64 C44,66 24,66 14,64 Z" />
+        <!-- Community connection dots -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M18,52m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M58,44m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+    </group>
+</vector>
